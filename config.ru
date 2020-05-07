@@ -1,6 +1,7 @@
 # inspiration from
 # https://github.com/mperham/sidekiq/wiki/Monitoring#standalone-with-basic-auth
 
+require "delegate"
 require 'sidekiq'
 
 Sidekiq.configure_client do |config|
